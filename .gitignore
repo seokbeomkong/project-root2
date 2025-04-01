@@ -1,0 +1,19 @@
+# .gitignore
+
+# 민감 정보 파일 제외
+db.php
+.env
+
+# 운영체제별 생성 파일 무시
+.DS_Store
+Thumbs.db
+
+# Composer를 사용하는 경우 의존성 디렉토리 제외
+/vendor/
+
+# 로그 파일 제외
+*.log
+
+# IDE 또는 에디터 관련 파일들 제외
+.idea/
+.vscode/
