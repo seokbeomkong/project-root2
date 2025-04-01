@@ -17,7 +17,7 @@ Bootstrap을 사용해 간단하고 직관적인 UI를 제공하며, Prepared St
 
 2. **프로젝트 다운로드**
    - GitHub Repository에서 프로젝트를 클론하거나 압축 파일로 다운로드합니다.
-   - 예시: `git clone https://github.com/username/repository.git`
+   - 예시: `git clone 'https://github.com/seokbeomkong/project-root2.git`
 
 3. **데이터베이스 설정**
    - MySQL에 접속하여 아래 쿼리를 실행해 데이터베이스 및 테이블을 생성합니다.
