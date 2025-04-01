@@ -1,6 +1,6 @@
 <?php
 // index.php
-include 'db.php'; // 실제 연결 정보가 담긴 파일 (db.php는 .gitignore에 등록)
+include 'db.sample.php'; // 실제 연결 정보가 담긴 파일 (db.php는 .gitignore에 등록)
 $sql = "SELECT id, user_name, diagnosis_result, created_at FROM diagnosis_results ORDER BY created_at DESC";
 $result = $conn->query($sql);
 ?>

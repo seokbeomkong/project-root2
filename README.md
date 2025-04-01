@@ -26,13 +26,6 @@ Bootstrap을 사용해 간단하고 직관적인 UI를 제공하며, Prepared St
    CREATE DATABASE IF NOT EXISTS diagnosis_db;
    USE diagnosis_db;
 
-   CREATE TABLE IF NOT EXISTS diagnosis (
-    id INT(11) AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
-    diagnosis TEXT NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-   );
-
    CREATE TABLE diagnosis_results (
        id INT AUTO_INCREMENT PRIMARY KEY,
        user_name VARCHAR(100) NOT NULL,
